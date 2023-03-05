@@ -1,0 +1,99 @@
+.cabecalho{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 160px auto 80px auto 140px auto ;
+    gap: 10px
+}
+
+.atributos{
+    display: grid;
+    grid-template-columns: 30vw 30vw 30vw;
+}
+
+.caracteristica{
+    width: 30px;
+}
+.grupoAtb{
+    display: grid;
+    grid-template-columns: auto 50px;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    margin: 0;
+}
+
+.dons{
+    width: 37.5vw;
+    margin: 0 1vw
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.vantagens{
+    display: flex;
+    flex-direction: row;
+}
+
+.renome{
+    display: flex;
+    flex-direction: column;
+}
+
+h3{
+    margin: 0
+}
+
+.hide{
+    display: none;
+}
+
+.posto{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 30vw 30vw 30vw;
+}
+
+#posto{
+    width: 100px;
+}
+
+#vit{
+    margin: 0 2vw
+}
+
+.vit{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+}
+
+em{
+    width: 150px;
+    font-size: 20px;
+}
+
+.final{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.title{
+    text-align: center;
+}
+
+label{
+    font-size: 20px ;
+}
