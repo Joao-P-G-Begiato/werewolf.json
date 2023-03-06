@@ -1,5 +1,5 @@
 export default class Char {
-    constructor(nome, jogador, cronica, raca, augurio, tribo, matilha, totem, conceito, forca, destreza, vigor, carisma, manipulacao, aparencia, inteligencia, percepecao, talentos, pericias, conhecimentos, antecedentes, dons, gloriap , gloriat, honrap, honrat, sabedoriap, sabedoriat, furiap, furiat, gnosep, gnoset, fdvp, fdvt, vit){
+    constructor(nome, jogador, cronica, raca, augurio, tribo, matilha, totem, conceito, forca, destreza, vigor, carisma, manipulacao, aparencia, percepecao, inteligencia, raciocinio, talentos, pericias, conhecimentos, antecedentes, dons, gloriap , gloriat, honrap, honrat, sabedoriap, sabedoriat, furiap, furiat, gnosep, gnoset, fdvp, fdvt, vit){
         this.nome = nome, 
         this.jogador = jogador, 
         this.cronica = cronica, 
@@ -14,9 +14,10 @@ export default class Char {
         this.vigor = vigor, 
         this.carisma = carisma, 
         this.manipulacao = manipulacao, 
-        this.aparencia = aparencia, 
-        this.inteligencia = inteligencia, 
-        this.percepecao = percepecao, 
+        this.aparencia = aparencia,  
+        this.percepecao = percepecao,
+        this.inteligencia = inteligencia,
+        this.raciocinio = raciocinio,
         this.talentos = talentos, 
         this.pericias = pericias, 
         this.conhecimentos = conhecimentos, 
