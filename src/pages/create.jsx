@@ -4,9 +4,11 @@ import "../style/create.css"
 import list from "../service/data";
 import Feature from "../components/feature";
 import BigFeature from "../components/bigFeature";
+import Char from "../model/character";
 
 export function Create(){
     const {raca, augurio, tribo} = list
+
     return (
         <form>
             <header className="cabecalho">
