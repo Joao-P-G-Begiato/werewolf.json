@@ -4,11 +4,14 @@ import "../style/create.css"
 import list from "../service/data";
 import Feature from "../components/feature";
 import BigFeature from "../components/bigFeature";
-import Char from "../model/character";
+import { useContext } from "react";
+import { Context } from "../context/context";
 
 export function Create(){
     const {raca, augurio, tribo} = list
-
+    const {char} = useContext(Context)
+    
+    console.log(char)
     return (
         <form>
             <header className="cabecalho">
