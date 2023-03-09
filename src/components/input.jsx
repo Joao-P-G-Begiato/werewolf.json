@@ -4,7 +4,7 @@ export default function Input(props){
     return(
         <>
         <label>{label}</label>
-        <input placeholder={placeholder} className={cName} type={type} onChange={()=>callback()}></input>
+        <input placeholder={placeholder} className={cName} type={type} onChange={(e)=>callback(e.target.value)}></input>
         </>
     )
 }

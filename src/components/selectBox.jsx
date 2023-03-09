@@ -4,7 +4,7 @@ export default function SelectBox(props){
         <>
         <label htmlFor={name}>{label}</label>
         <select onChange={(e)=>callback(e.target.value)} name={name} id={name}>
-            {options.map((element)=><option>{element}</option>)}
+            {options.map((element, index)=><option key={index}>{element}</option>)}
         </select>
 
         </>
