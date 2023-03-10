@@ -24,7 +24,7 @@ export default class Char {
         },
         this.habilidades ={
             talentos: {
-                prontidão: 0,
+                prontidao: 0,
                 esportes: 0,
                 briga: 0,
                 esquiva: 0,
@@ -40,8 +40,8 @@ export default class Char {
                 officios : 0,
                 conducao : 0,
                 etiqueta : 0,
-                armaDeFogo : 0,
-                armaBranca : 0,
+                armasDeFogo : 0,
+                armasBrancas : 0,
                 lideranca : 0,
                 performance : 0,
                 furtividade : 0,
@@ -64,7 +64,7 @@ export default class Char {
             antecedentes : {},
             dons: [],
             renome : {
-                glória : {
+                gloria : {
                     permanente: 0,
                     temporaria: 0
                 },
