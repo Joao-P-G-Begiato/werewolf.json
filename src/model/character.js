@@ -93,7 +93,106 @@ export default class Char {
             vitalidade : [" "," "," "," "," "," "," " ]
         },
         this.rituais = " "
-        
+        this.outras = {}
+        this.fetiches ={
+            fetiche1 : {
+                item: "",
+                poder: "",
+                gnose: 0,
+                nivel: 0,
+                dedicado: ""
+            },
+            fetiche2 : {
+                item: "",
+                poder: "",
+                gnose: 0,
+                nivel: 0,
+                dedicado: ""
+            },
+            fetiche3 : {
+                item: "",
+                poder: "",
+                gnose: 0,
+                nivel: 0,
+                dedicado: ""
+            },
+            fetiche4 : {
+                item: "",
+                poder: "",
+                gnose: 0,
+                nivel: 0,
+                dedicado: ""
+            },
+            fetiche5 : {
+                item: "",
+                poder: "",
+                gnose: 0,
+                nivel: 0,
+                dedicado: ""
+            },
+            fetiche6 : {
+                item: "",
+                poder: "",
+                gnose: 0,
+                nivel: 0,
+                dedicado: ""
+            }
+        },
+        this.armas = {
+            arma1 : {
+                manobra : " ",
+                teste : " ",
+                dano : " ",
+                alcance : " ",
+                cadencia : " ",
+                pente : " "
+            }, 
+            arma2 : {
+                manobra : " ",
+                teste : " ",
+                dano : " ",
+                alcance : " ",
+                cadencia : " ",
+                pente : " "
+            }, 
+            arma3 : {
+                manobra : " ",
+                teste : " ",
+                dano : " ",
+                alcance : " ",
+                cadencia : " ",
+                pente : " "
+            }, 
+            arma4 : {
+                manobra : " ",
+                teste : " ",
+                dano : " ",
+                alcance : " ",
+                cadencia : " ",
+                pente : " "
+            }, 
+            arma5 : {
+                manobra : " ",
+                teste : " ",
+                dano : " ",
+                alcance : " ",
+                cadencia : " ",
+                pente : " "
+            }, 
+            arma6 : {
+                manobra : " ",
+                teste : " ",
+                dano : " ",
+                alcance : " ",
+                cadencia : " ",
+                pente : " "
+            }, 
+        },
+        this.armadura = {
+            nivel: 0,
+            penalidade: 0,
+            descricao: " "
+        }
     }
 }
 
