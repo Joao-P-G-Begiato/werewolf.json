@@ -1,9 +1,9 @@
 export default function Input(props){
-    const {callback, label, type, placeholder, cName} = props
+    const {callback, label, type, placeholder, cName, lName} = props
 
     return(
         <>
-        <label>{label}</label>
+        <label className={lName}>{label}</label>
         <input placeholder={placeholder} className={cName} type={type} onChange={(e)=>callback(e.target.value)}></input>
         </>
     )

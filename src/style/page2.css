@@ -1,0 +1,104 @@
+li{
+    list-style-type: none;
+}
+
+ul{
+    padding-inline-start: 0;
+    margin: 0
+}
+
+p{
+    margin: 0;
+}
+
+textarea{
+    width: 48vw;
+    height: 140px;
+    margin-top: 8px;
+}
+
+.formas{
+    display: grid;
+    grid-template-columns: 18vw 18vw 18vw 18vw 18vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: stretch;
+}
+
+.middle{
+    display: grid;
+    grid-template-columns: 40vw 50vw;
+}
+
+
+.humano{
+    background-image: url(../assets/Homid.PNG);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.glabro{
+    background-image: url(../assets/Glabro.PNG);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.crinos{
+    background-image: url(../assets/Crinos.PNG);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.hispo{
+    background-image: url(../assets/Hispo.PNG);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.lupino{
+    background-image: url(../assets/Lupino.PNG);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.poder{
+    width: calc(100% - 200px);
+}
+
+.fetiche{
+    display: inline-block;
+    width: 50px;
+}
+
+.fetiches{
+    justify-content: space-between;
+    
+}
+
+.item{
+    width: calc(100% - 265px);
+}
+
+.outro{
+    width: 75%
+}
+
+.final2nd{
+    display: grid;
+    grid-template-columns: 75vw 20vw;
+    margin-top: 8px;
+}
+
+.armor{
+    width: 175px;
+    height: 100px;
+}
+
+h4{
+    margin: 0
+}
+
+.tableInput{
+    width: auto;
+    max-width: 100px;
+}

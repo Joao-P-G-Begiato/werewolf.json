@@ -1,9 +1,10 @@
-nav{
+header{
     display: flex;
     flex-direction: row;
     gap: 10px;
     align-items: center;
     border-bottom: 0.1px solid rgba(68, 68, 68, 0.516);
+    justify-content: space-between;
 }
 
 .h1-header{

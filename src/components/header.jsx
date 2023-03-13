@@ -7,10 +7,12 @@ export default function Header(){
     const navigate = useNavigate()
 
     return(
-        <nav>
-            <h1 className="h1-header" onClick={()=>navigate("/")}> Lobisomem, O Apocalipse </h1>  
-            <Button label="Criar Personagem" callback={()=>navigate("/create")}/>
-            <Button label="Ver Personagem" callback={()=>navigate("/create")}/>
-        </nav>
+        <header>
+            <h1 className="h1-header" onClick={()=>navigate("/")}> Lobisomem, O Apocalipse </h1>
+            <nav>
+                <Button label="Criar Personagem" callback={()=>navigate("/create")}/>
+                <Button label="Ver Personagem" callback={()=>navigate("/create")}/>
+            </nav>  
+        </header>
     )
 }
