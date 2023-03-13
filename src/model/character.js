@@ -1,46 +1,97 @@
 export default class Char {
-    constructor(nome, jogador, cronica, raca, augurio, tribo, matilha, totem, conceito, forca, destreza, vigor, carisma, manipulacao, aparencia, percepecao, inteligencia, raciocinio, talentos, pericias, conhecimentos, antecedentes, dons, gloriap , gloriat, honrap, honrat, sabedoriap, sabedoriat, furiap, furiat, gnosep, gnoset, fdvp, fdvt, vit , posto){
-        this.nome = nome, 
-        this.jogador = jogador, 
-        this.cronica = cronica, 
-        this.raca = raca, 
-        this.augurio = augurio, 
-        this.tribo = tribo, 
-        this.matilha = matilha, 
-        this.totem = totem, 
-        this.conceito = conceito, 
-        this.forca = forca, 
-        this.destreza = destreza, 
-        this.vigor = vigor, 
-        this.carisma = carisma, 
-        this.manipulacao = manipulacao, 
-        this.aparencia = aparencia,  
-        this.percepecao = percepecao,
-        this.inteligencia = inteligencia,
-        this.raciocinio = raciocinio,
-        this.talentos = talentos, 
-        this.pericias = pericias, 
-        this.conhecimentos = conhecimentos, 
-        this.antecedentes = antecedentes, 
-        this.dons = dons, 
-        this.gloriap = gloriap , 
-        this.gloriat = gloriat, 
-        this.honrap = honrap, 
-        this.honrat = honrat, 
-        this.sabedoriap = sabedoriap, 
-        this.sabedoriat = sabedoriat, 
-        this.furiap = furiap, 
-        this.furiat = furiat, 
-        this.gnosep = gnosep, 
-        this.gnoset = gnoset, 
-        this.fdvp = fdvp, 
-        this.fdvt = fdvt, 
-        this.vit = vit,
-        this.posto = posto
+    constructor(){
+        this.cabecalho = {
+            nome : " ",
+            jogador: " ",
+            cronica: " ",
+            augurio: " ",
+            tribo: " ",
+            raca: " ",
+            matilha: " ",
+            totem: " ",
+            conceito: " "
+        },
+        this.atributos = {
+            forca: 1,
+            destreza: 1,
+            vigor: 1,
+            carisma: 1,
+            manipulacao: 1,
+            aparencia: 1,
+            percepecao: 1,
+            inteligencia: 1,
+            raciocinio: 1,
+        },
+        this.habilidades ={
+            talentos: {
+                prontidao: 0,
+                esportes: 0,
+                briga: 0,
+                esquiva: 0,
+                empatia:0,
+                expressao: 0,
+                intimidacao: 0,
+                instinto: 0,
+                manha:0,
+                labia: 0
+            },
+            pericias: {
+                animais : 0,
+                officios : 0,
+                conducao : 0,
+                etiqueta : 0,
+                armasDeFogo : 0,
+                armasBrancas : 0,
+                lideranca : 0,
+                performance : 0,
+                furtividade : 0,
+                sobrevivencia : 0
+            },
+            conhecimentos: {
+                computador : 0, 
+                enigmas : 0, 
+                investigacao : 0, 
+                direito : 0, 
+                linguistica : 0, 
+                medicina : 0, 
+                ocultismo : 0, 
+                politica : 0, 
+                rituais : 0,
+                ciencia : 0
+            }
+        },
+        this.vantagens = {
+            antecedentes : {},
+            dons: [],
+            renome : {
+                gloria : {
+                    permanente: 0,
+                    temporaria: 0
+                },
+                honra: {
+                    permanente: 0,
+                    temporaria: 0
+                },
+                sabedoria: {
+                    permanente: 0,
+                    temporaria: 0
+                },
+                posto: "1 - cliath"
+            },
+            furia : {
+                permanente: 0,
+                temporaria: 0
+            },
+            gnose : {
+                permanente: 0,
+                temporaria: 0
+            },
+            vontade : {
+                permanente: 0,
+                temporaria: 0
+            },
+            vitalidade : [" "," "," "," "," "," "," " ]
+        }
     }
 }
 
-
-const teste = new Char ("nome", "jogador", "cronica", "hominideo", "ahroun", "cria de fenris", "matilha", "totem", "conceito", "2", "2", "3", "2", "2", "3", "4", "5", ["0","0","0","0","0","0","0","0","0","0"], ["0","0","0","0","0","0","0","0","0","0"], ["0","0","0","0","0","0","0","0","0","0"], {"antecedentes": 1, "antecedente2" : 4}, ["dons" , "dons"], "0" , "1", "0", "1", "2", "1", "1", "2", "2", "1", "1", "0", [" ", " ", " ", " ", " ", " ", " "])
-
-console.log(Object.values(teste))
