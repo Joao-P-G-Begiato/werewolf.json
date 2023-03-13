@@ -91,7 +91,9 @@ export default class Char {
                 temporaria: 0
             },
             vitalidade : [" "," "," "," "," "," "," " ]
-        }
+        },
+        this.rituais = " "
+        
     }
 }
 
